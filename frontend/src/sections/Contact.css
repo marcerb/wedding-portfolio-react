@@ -1,0 +1,41 @@
+.contact {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.contact__input,
+.contact__textarea {
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact__button {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

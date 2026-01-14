@@ -1,27 +1,33 @@
 .work {
-  padding: 60px 20px;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+  text-align: center;
 }
 
 .work__title {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 20px;
+  font-size: 38px;
+  margin-bottom: 15px;
 }
 
-.work__description {
-  text-align: center;
-  margin-bottom: 40px;
+.work__subtitle {
+  max-width: 720px;
+  margin: 0 auto 50px;
   font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
 }
 
-.work__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+.work__video-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7);
 }
 
-.work__image,
 .work__video {
   width: 100%;
-  border-radius: 8px;
+  height: auto;
+  display: block;
 }

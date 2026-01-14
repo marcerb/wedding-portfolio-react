@@ -1,18 +1,19 @@
 .about {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #f7efe5, #fdfaf6);
+  text-align: center;
 }
 
 .about__title {
-  text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 30px;
+  color: #2b2b2b;
 }
 
 .about__text {
+  max-width: 800px;
+  margin: 0 auto 20px;
   font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  text-align: center;
+  line-height: 1.7;
+  color: #444;
 }

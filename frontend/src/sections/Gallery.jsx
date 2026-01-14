@@ -31,7 +31,7 @@ function Gallery() {
   }
 
   return (
-    <section className="gallery">
+    <section id="gallery" className="gallery">
       <h2 className="gallery__title">Galería</h2>
 
       <div className="gallery__grid">

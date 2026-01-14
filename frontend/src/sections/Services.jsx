@@ -2,32 +2,59 @@ import "./Services.css";
 
 function Services() {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h2 className="services__title">Servicios</h2>
 
       <div className="services__list">
-        <article className="services__item">
+        {/* PAQUETE 1 */}
+        <article className="services__item services__item--one">
           <h3 className="services__item-title">Paquete 1</h3>
-          <p className="services__item-text">
-            Capturamos cada momento especial de tu boda con un enfoque natural y
-            emotivo.
-          </p>
+
+          <ul className="services__details">
+            <li>1 fotógrafo</li>
+            <li>1 videógrafo</li>
+            <li>120 fotografías editadas en alta calidad</li>
+            <li>Entrega digital</li>
+            <li>Video “tráiler de boda” (máx. 12 minutos)</li>
+            <li>Entrega de todo el material sin editar</li>
+          </ul>
+
+          <p className="services__price">$ 1.800.000</p>
         </article>
 
-        <article className="services__item">
+        {/* PAQUETE 2 */}
+        <article className="services__item services__item--two">
           <h3 className="services__item-title">Paquete 2</h3>
-          <p className="services__item-text">
-            Producción de video con edición profesional para revivir tu día una
-            y otra vez.
-          </p>
+
+          <ul className="services__details">
+            <li>1 fotógrafo</li>
+            <li>1 videógrafo</li>
+            <li>120 fotografías editadas en alta calidad</li>
+            <li>Entrega digital</li>
+            <li>Video “tráiler de boda” (máx. 12 minutos)</li>
+            <li>Incluye tomas con drone</li>
+            <li>Entrega de todo el material sin editar</li>
+          </ul>
+
+          <p className="services__price">$ 2.000.000</p>
         </article>
 
-        <article className="services__item">
+        {/* PAQUETE 3 */}
+        <article className="services__item services__item--three">
           <h3 className="services__item-title">Paquete 3</h3>
-          <p className="services__item-text">
-            Sesiones fotográficas previas a la boda para contar tu historia
-            desde el inicio.
-          </p>
+
+          <ul className="services__details">
+            <li>1 fotógrafo</li>
+            <li>1 videógrafo</li>
+            <li>Sesión pre boda (15 fotos digitales)</li>
+            <li>Video de invitación (máx. 3 minutos)</li>
+            <li>120 fotografías editadas en alta calidad</li>
+            <li>Video “tráiler de boda” (máx. 12 minutos)</li>
+            <li>Incluye tomas con drone</li>
+            <li>Entrega de todo el material sin editar</li>
+          </ul>
+
+          <p className="services__price">$ 2.300.000</p>
         </article>
       </div>
     </section>

@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# Videos locales (no subir a GitHub)
+public/videos/
